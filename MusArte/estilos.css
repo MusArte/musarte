@@ -1,0 +1,145 @@
+*{
+	margin: 10px;
+	padding: 10px;
+}
+body{
+	background: brown;
+        text-align: center;
+
+}
+#contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+header{
+	background: #a7a8a8;
+	height: 100px;
+}
+header h1{
+	color: #000000;
+	font-size: 35px;  
+	font-family: arial;
+	line-height: 20px;
+	margin-left: 320px;
+	float: left;
+}
+#redes{
+	float: right;
+	line-height: 20px;
+}
+#redes img {
+	margin: 10px;
+	vertical-align: middle;
+	border-radius: 100px;
+	box-shadow: 2px 2px 0px rgb(25, 11, 226);
+}
+nav{
+	background: #ffffffec;
+	height:40px;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding:1px 0px;
+}
+nav a{
+	color: #030808;
+	font-size: 20px;
+        font-weight: bold;
+	font-family: arial;
+        text-decoration: none;
+	padding: 40px;
+}
+nav a:hover {
+	background: #2EFCE6;
+}
+#banner{
+	margin: auto;
+	border: 10px solid #000;
+	margin-top: 10px;
+}
+#contenido{
+	float: left;
+	width: 600px;
+	background:#B2F97D;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.articulos h2{
+	font-size: 40px;
+	padding: 10px;
+	color: #8272D5;
+	border-bottom: 5px solid #8272D5;
+        text-align: justify;
+}
+.articulos img{
+	float: left;
+	margin: 10px;
+}
+.articulos p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	line-height: 18px;
+        text-align: justify;
+}
+aside{
+	float: left;
+	width: 250px;
+	background: #5BC391;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+aside h3{
+	font-size: 25px;
+	background: #5BC391 ;
+	text-align: center;
+	padding: 10px;
+	color:#fff;
+}
+aside p{
+	padding: 5px;
+     	font-size: 15px;
+	text-align: justify;
+	line-height: 18px;
+}
+aside img{
+	width: 150px;
+}
+#imgaside{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#empresa{
+    float: left;
+	width: 900px;
+	background:#B2F97D;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+        text-align: justify;
+}
+.vismis{
+    text-align: justify;
+}
+footer{
+	height: 60px;
+	background: #0F0F1E;
+	clear: both;
+}
+footer p{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	line-height: 60px;
+	font-style: italic;
+}
+
